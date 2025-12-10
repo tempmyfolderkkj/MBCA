@@ -1,0 +1,35 @@
+공유폴더 - \\192.168.0.38
+
+& C:/Users/Admin/AppData/Local/Programs/Python/Python314/python.exe c:/Users/Admin/MBCA/Python/Projects/
+
+
+공유 웹페이지
+https://2017mrhi.github.io/web-test/
+
+https://www.kobis.or.kr/kobisopenapi/homepg/user/joinUser.do (영화진흥위원회 open api)
+kano8so
+kofic1201
+
+git
+user name - temp251210
+user email - kkj7886@daum.net
+
+site email - aosj2579@gmail.com
+site name - gitkkj
+
+
+git com - 
+맨위 - first
+description - 이름
+choose visibility - public
+Add Readme - off
+add.gitignore - No .gitignore
+Add license - No license
+
+quick create File
+-> 파일이름 in main
+edit - message = 'asd'
+	print(message)
+
+
+full requests - merge 기능

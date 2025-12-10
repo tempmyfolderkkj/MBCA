@@ -1,0 +1,14 @@
+https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/aaa.txt
+
+https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/bbb.txt
+
+https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/ccc.txt
+
+https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/ddd.csv
+
+https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/eee.tsv
+
+https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/ggg.xml
+
+https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/hhh.json
+

@@ -1,0 +1,25 @@
+clear - 창 지우기
+
+git status - 상태( 저장 )
+
+git add [파일명] - 파일명 만
+git add --all - 전부다
+
+git commit - 기록 저장
+
+git push - github 사이트에 저장
+
+vim [파일명] - 메모장
+
+git restore [파일명] - 수정 전으로 복구
+git restore --staged [파일명] - status 상태에서 취소
+
+git reset HEAD~1 - log 1칸 전으로 (default - mix)
+git reset --hard HEAD~2 - log 2칸 전으로
+
+git checkout [브런치 이름] - 브런치 이동 -> 생성/파일복원 가능
+git switch [브런치 이름] - 브런치 이동
+
+git merge [브런치 이름] - 합치기 ( 현재 브런치 파일 기준)
+
+git clone [경로]
