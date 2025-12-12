@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>list anchor image element</title>
+    </head>
+    <body>
+        
+        <!-- 1. list 요소 -->
+        <ul>
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+        </ul>
+
+        <ol>
+            <li>aaa</li>
+            <li>bbb</li>
+            <li>ccc</li>
+        </ol>
+        
+        <dl>
+            <dt>aaa</dt>
+            <dd>이것은 Definition Data 입니다</dd>
+            <dd>aaaaaaaaaa</dd>
+            
+            <dt>bbb</dt>
+            <dd>bbbbbbbbbb</dd>
+
+        </dl>
+
+        <!-- 2. 하이퍼링크 요소 : anchor -->
+        <!-- 2.1) 절대 경로 -->
+        <a href="https://www.naver.com">네이버</a>
+        <br>
+        <a href="https://www.google.com" target="_blank">구글</a> 
+        <br>
+        <!-- 2.2) 상대 경로 -->
+        <a href="./ex02_text.html" target="_blank">02 text 웹문서</a>
+        <br>
+        <a href="./../../Python/Projects/web_test/index.html" target="_blank">파이썬 수업에서 만든 웹문서</a>
+        <!-- 2.3) 같은 웹문서에서 특정 위치로 스크롤 이동 -->
+        <a href="#aa">도움말 위치로</a>
+        <hr>
+        <h3 id="aa">도움말</h3>
+
+        <!-- 인라인 요소의 줄바꿈을 위해 br태그를 이용하는 대신 p요소 사용도 좋음 -->
+        <p><a href="#aa">이동</a></p>
+
+        <!-- list요소안에 앵커요소 배치 가능 -->
+        <ul>
+            <li><a href="https://www.naver.com" target="_blank">네이버 이동</a></li>
+            <li><a href="https://www.google.com" target="_blank">구글 이동</a></li>
+            <li><a href="https://www.daum.net" target="_blank">다음 이동</a></li>
+        </ul>
+
+        <!-- 이미지 파일링크를 열기 -->
+        <p><a href="./../etc/image/apple.jpeg"></p>
+        
+        <!-- 웹브라우저에서 보여줄수 없는 파일형식 링크 - 자동 다운로드 됨 -->
+
+        <!-- 이메일 링크 -->
+        <p>
+            <a href="mailto:aaa@naver.com">aaa@naver.com</a>
+        </p>
+
+        <!-- 3. 이미지 요소 -->
+        <p><img src="./../etc/image/apple.jpeg" alt="사과"></p>
+        <p><img src="./../etc/image/apple.jpeg" alt="사과" width="100"></p>
+        <p><img src="./../etc/image/apple.jpeg" alt="사과" width="100%"></p> <!-- 가로 100퍼 (창크기 커지면 같이 커짐) -->
+
+        <!-- image + anchor -->
+        <p>
+            <a href="./../etc/image/apple.jpeg" target="_blank"><img src="./../etc/image/apple.jpeg" alt="사과" width="50"></a>
+        </p>
+
+        <p>
+            <img src="./aaa.jpg" alt="대체되는글씨">
+        </p>
+
+    </body>
+</html>
